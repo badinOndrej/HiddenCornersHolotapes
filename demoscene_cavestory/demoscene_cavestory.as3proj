@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+  <!-- Output SWF options -->
+  <output>
+    <movie outputType="Application" />
+    <movie input="" />
+    <movie path="bin\demoscenecavestory.swf" />
+    <movie fps="30" />
+    <movie width="826" />
+    <movie height="700" />
+    <movie version="11" />
+    <movie minorVersion="0" />
+    <movie platform="Flash Player" />
+    <movie background="#000000" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="src" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option accessible="False" />
+    <option advancedTelemetry="False" />
+    <option allowSourcePathOverlap="False" />
+    <option benchmark="False" />
+    <option es="False" />
+    <option inline="False" />
+    <option locale="" />
+    <option loadConfig="" />
+    <option optimize="True" />
+    <option omitTraces="True" />
+    <option showActionScriptWarnings="True" />
+    <option showBindingWarnings="True" />
+    <option showInvalidCSS="True" />
+    <option showDeprecationWarnings="True" />
+    <option showUnusedTypeSelectorWarnings="True" />
+    <option strict="True" />
+    <option useNetwork="True" />
+    <option useResourceBundleMetadata="True" />
+    <option warnings="True" />
+    <option verboseStackTraces="False" />
+    <option linkReport="" />
+    <option loadExterns="" />
+    <option staticLinkRSL="True" />
+    <option additional="" />
+    <option compilerConstants="" />
+    <option minorVersion="" />
+  </build>
+  <!-- SWC Include Libraries -->
+  <includeLibraries>
+    <!-- example: <element path="..." /> -->
+  </includeLibraries>
+  <!-- SWC Libraries -->
+  <libraryPaths>
+    <!-- example: <element path="..." /> -->
+  </libraryPaths>
+  <!-- External Libraries -->
+  <externalLibraryPaths>
+    <!-- example: <element path="..." /> -->
+  </externalLibraryPaths>
+  <!-- Runtime Shared Libraries -->
+  <rslPaths>
+    <!-- example: <element path="..." /> -->
+  </rslPaths>
+  <!-- Intrinsic Libraries -->
+  <intrinsics>
+    <!-- example: <element path="..." /> -->
+  </intrinsics>
+  <!-- Assets to embed into the output SWF -->
+  <library>
+    <asset path="src\img\caveman0001.png" />
+    <asset path="src\img\caveman0002.png" />
+    <asset path="src\img\caveman0003.png" />
+    <asset path="src\img\caveman0004.png" />
+    <asset path="src\img\caveman0005.png" />
+    <asset path="src\img\caveman0006.png" />
+    <asset path="src\img\caveman0007.png" />
+    <asset path="src\img\caveman0008.png" />
+    <asset path="src\img\caveman0009.png" />
+    <asset path="src\img\caveman0010.png" />
+    <asset path="src\img\caveman0011.png" />
+    <asset path="src\img\caveman0012.png" />
+    <asset path="src\img\caveman0013.png" />
+    <asset path="src\img\caveman0014.png" />
+    <asset path="src\img\caveman0015.png" />
+    <asset path="src\img\caveman0016.png" />
+    <asset path="src\img\caveman0017.png" />
+    <asset path="src\img\caveman0018.png" />
+    <asset path="src\img\caveman0019.png" />
+    <asset path="src\img\caveman0020.png" />
+    <asset path="src\img\caveman0021.png" />
+    <asset path="src\img\caveman0022.png" />
+    <asset path="src\img\caveman0023.png" />
+    <asset path="src\img\clouds.png" />
+    <asset path="src\img\sky.png" />
+    <asset path="src\img\cave2.png" />
+    <asset path="src\img\cave.png" />
+    <asset path="src\img\cartoon_grass.png" />
+    <asset path="src\img\volcano11.png" />
+    <asset path="src\img\volcano12.png" />
+    <asset path="src\img\volcano21.png" />
+    <asset path="src\img\volcano22.png" />
+    <asset path="src\img\jungle.png" />
+    <asset path="src\img\mammooth.png" />
+  </library>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <compile path="src\demoscene_cavestory\Main.as" />
+  </compileTargets>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <hidden path="obj" />
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand />
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="False" />
+    <option testMovie="Default" />
+    <option testMovieCommand="" />
+  </options>
+  <!-- Plugin storage -->
+  <storage />
+</project>
